@@ -75,9 +75,13 @@ nav a{
   /*This styles the class mainimg or top-most box*/
 .mainimg{
   height: 700px;
-  width: 1200px;
+  width: 1250px;
   background-image: url(../images/img-mission-background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   margin: 0 auto;
+  /*opacity: 1;*/
   /*position: relative;*/
   /*top: 68px;*/
 }
@@ -90,6 +94,15 @@ nav a{
 .mainimg .caption{
   background-color: black;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 90px;
+  padding: 10px 0px;
+}
+
+.mainimg .caption h2, .mainimg .caption h4{
+  margin: 0px;
 }
 
   /*The styles for the class mainimg or the top-most box ends here*/
@@ -97,23 +110,28 @@ nav a{
   display: flex;
   flex-wrap: wrap;
   width: 1000px;
-  margin: 0 auto;
+  margin: 0 auto 70px auto;
   justify-content: center;
   /*justify-content: space-between;*/
 }
   /*Sets the width to stretch end to end of the middle container*/
 .month .caption{
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 90px;
+  margin: 80px 0px 20px 0px;
 }
 
-.month h2{
-  margin: 75px auto 5px auto;
+.month h2, .month h4{
+  margin: 0px;
 }
 
-.month h4{
+/*.month h4{
   margin: 20px auto;
-  /*border: 1px solid white;*/
-}
+  border: 1px solid white;
+}*/
 
 
   /*Sets the width of each and every tea image sample*/
@@ -128,4 +146,58 @@ nav a{
   /*This sets the margin for the description of the tea sample image*/
 .month .tea h4{
   margin: 10px auto;
+}
+/*Style of the mid-section of the webpage ends here*/
+
+/*Style for the loacation box starts here*/
+.location{
+  height: 500px;
+  width: 1250px;
+  background-image: url(../images/img-locations-background.jpg);
+  background-size: cover;
+  background-position:
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  /*position: relative;*/
+}
+
+.location h2{
+  position: absolute;
+  border: 1px solid white;
+  margin: 0px;
+  padding: 0px;
+  bottom: 15px;
+}
+
+.location{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+}
+
+.location .address{
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0px 20px;
+}
+
+#middlelocation{
+  position: relative;
+}
+
+.location .address{
+  /*display: flex;
+  flex-direction: column;
+  justify-content: space-around;*/
+}
+
+.address p, .address h3{
+  /*border: 1px solid white;
+  margin: 0px;*/
 }
