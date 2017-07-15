@@ -204,10 +204,23 @@ nav a{
   margin: 0px;
 }
 
-/*This styles the footer*/
+/*This styles the contact*/
 .contact{
   height: 200px;
   width: 1250px;
   margin: 0 auto;
-  border: 1px solid white;
+  /*border: 1px solid white;*/
+}
+
+ .contact h2{
+ padding-top: 10px;
+ margin: 0px;
+}
+
+/*This styles the footer*/
+.copyright{
+  margin: 0 20px;
+  padding: 0px 0px 40px 0px;
+  /*border: 1px solid red;*/
+  text-align: left;
 }
