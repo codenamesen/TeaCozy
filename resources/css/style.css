@@ -11,7 +11,7 @@ outline: solid #f00 1px !important;
 
 /*Removes the extra margins from the body so that web page could stretch end to end*/
 body{
-  margin: 0;
+  margin: 0px;
 }
 
 /*This styles apply to entire page*/
@@ -34,7 +34,7 @@ header{
   width: 100%;
   z-index: 2;
   top: 0;
-  /*opacity: 0.1;*/
+  opacity: 0.1;
 }
 
 /*header .logonav{
@@ -68,8 +68,8 @@ nav a{
 
 /*Styles for the class main starts form here*/
 .main{
-  position: relative;
-  top: 68px;
+  /*position: relative;
+  top: 68px;*/
 }
 
   /*This styles the class mainimg or top-most box*/
@@ -82,8 +82,8 @@ nav a{
   background-repeat: no-repeat;
   margin: 0 auto;
   /*opacity: 1;*/
-  /*position: relative;*/
-  /*top: 68px;*/
+  position: relative;
+  top: 68px;
 }
 
 .mainimg{
@@ -158,38 +158,40 @@ nav a{
   background-position:
   background-repeat: no-repeat;
   margin: 0 auto;
-  /*position: relative;*/
+  padding: 0px;
+  position: relative;
 }
 
 .location h2{
   position: absolute;
-  border: 1px solid white;
+  /*border: 1px solid white;*/
   margin: 0px;
   padding: 0px;
-  bottom: 15px;
+  top: 69px;
+  /*top: 84px;*/      /*This offset set "Locations" exactly on top of the middle box*/
 }
 
 .location{
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid white;
+  /*border: 1px solid white;*/
 }
 
 .location .address{
   width: 300px;
-  height: 300px;
+  height: 250px;
   background-color: black;
-  border: 1px solid white;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: 0px 20px;
+  /*border: 1px solid white;*/
 }
 
-#middlelocation{
+/*#middlelocation{
   position: relative;
-}
+}*/
 
 .location .address{
   /*display: flex;
@@ -198,6 +200,14 @@ nav a{
 }
 
 .address p, .address h3{
-  /*border: 1px solid white;
-  margin: 0px;*/
+  /*border: 1px solid white;*/
+  margin: 0px;
+}
+
+/*This styles the footer*/
+.contact{
+  height: 200px;
+  width: 1250px;
+  margin: 0 auto;
+  border: 1px solid white;
 }
