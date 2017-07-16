@@ -29,6 +29,7 @@ header{
   display: flex;
   height: 69px;
   border-bottom: 1px solid white;
+  justify-content: space-between;
   align-items: center;
   position: fixed;
   width: 100%;
@@ -47,13 +48,15 @@ header{
 
 .logo img{
   height: 50px;
+  border: 2px solid red;
 }
 
 header .logo{
   display: flex;
   margin: auto 10px;
   justify-content: flex-start;
-  flex-grow: 1;
+  border:2px solid red;
+  /*flex-grow: 1;*/
 }
 
 nav span{
@@ -75,9 +78,9 @@ nav a{
   /*This styles the class mainimg or top-most box*/
 .mainimg{
   height: 700px;
-  width: 1250px;
+  width: 1200px;
   background-image: url(../images/img-mission-background.jpg);
-  background-size: cover;
+  /*background-size: cover;*/
   background-position: center;
   background-repeat: no-repeat;
   margin: 0 auto;
@@ -110,7 +113,7 @@ nav a{
   display: flex;
   flex-wrap: wrap;
   width: 1000px;
-  margin: 0 auto 70px auto;
+  margin: 0px auto 0px auto;
   justify-content: center;
   /*justify-content: space-between;*/
 }
@@ -149,54 +152,39 @@ nav a{
 }
 /*Style of the mid-section of the webpage ends here*/
 
+
 /*Style for the loacation box starts here*/
 .location{
+  margin: 0 auto 0 auto;
   height: 500px;
-  width: 1250px;
+  width: 1200px;
   background-image: url(../images/img-locations-background.jpg);
-  background-size: cover;
-  background-position:
-  background-repeat: no-repeat;
-  margin: 0 auto;
-  padding: 0px;
+  background-position:center 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
+  border:2px solid red;
 }
 
 .location h2{
   position: absolute;
-  /*border: 1px solid white;*/
-  margin: 0px;
-  padding: 0px;
-  top: 69px;
-  /*top: 84px;*/      /*This offset set "Locations" exactly on top of the middle box*/
-}
-
-.location{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /*border: 1px solid white;*/
+  top: 40px;            /*55px touches the top of the middle box*/
+  border:2px solid red;
 }
 
 .location .address{
+  margin: 15px 20px;
   width: 300px;
   height: 250px;
-  background-color: black;
+  background-color: black;  
+  border: 1px solid white;
+}
+
+.location .address{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  margin: 0px 20px;
-  /*border: 1px solid white;*/
-}
-
-/*#middlelocation{
-  position: relative;
-}*/
-
-.location .address{
-  /*display: flex;
-  flex-direction: column;
-  justify-content: space-around;*/
 }
 
 .address p, .address h3{
@@ -207,7 +195,7 @@ nav a{
 /*This styles the contact*/
 .contact{
   height: 200px;
-  width: 1250px;
+  width: 1200px;
   margin: 0 auto;
   /*border: 1px solid white;*/
 }
