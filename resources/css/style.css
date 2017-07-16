@@ -146,6 +146,7 @@ nav a{
   width: 300px;
   height: 250px;
   background-color: black;
+  opacity: 1;
 }
 
 .location .address{
@@ -171,7 +172,7 @@ nav a{
  margin: 0px;
 }
 
-/*This styles the footer*/
+/*This styles the copyright*/
 .copyright{
   margin: 0 20px;
   padding: 0px 0px 40px 0px;
