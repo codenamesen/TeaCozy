@@ -28,6 +28,7 @@ header{
   width: 100%;
   z-index: 2;
   top: 0;
+  opacity: 0.2;
 }
 
 .logo img{
@@ -51,16 +52,19 @@ nav a{
 /*Header styles end here*/
 
 /*Styles for the class main starts form here*/
+.main{
+  padding-top: 70px;
+}
   /*This styles the class mainimg or top-most box*/
 .mainimg{
   height: 700px;
   width: 1200px;
   background-image: url(../images/img-mission-background.jpg);
-  /*background-size: cover;*/
+
   background-position: center;
-  background-repeat: no-repeat;
+  /*background-repeat: no-repeat;*/
   margin: 0 auto;
-  position: relative;
+  /*position: relative;*/
   top: 68px;
 }
 
@@ -139,6 +143,7 @@ nav a{
 .location .caption{
   position: absolute;
   top: 40px;            /*55px touches the top of the middle box*/
+  /*margin: auto;*/
 }
 
 .location .address{
